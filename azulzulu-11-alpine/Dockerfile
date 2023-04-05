@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk-alpine:11
+FROM azul/zulu-openjdk-alpine:11.0.18-11.62.17-jre-headless-x86
 
 RUN apk add --no-cache curl tar bash procps
 
