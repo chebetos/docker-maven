@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk:11
+FROM azul/zulu-openjdk:11.0.30-11.86-jre-headless
 
 RUN apt-get update \
   && apt-get install -y ca-certificates curl openssh-client --no-install-recommends \
